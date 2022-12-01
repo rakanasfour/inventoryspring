@@ -1,0 +1,25 @@
+ #configuration
+ spring:
+
+  datasource:
+    
+    username: bf9579c9f6e460
+    password: d3c10a1b
+    hikari:
+      maxLifetime: 20000
+
+    url: jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_3112bf82f2b0437
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  
+     
+
+  devtools:
+    livereload:
+      enabled: true
+  jpa:
+    show-sql: true     
+    hibernate:
+      ddl-auto: update     
+
+ 
