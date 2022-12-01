@@ -14,7 +14,7 @@
 	<name>inventoryms</name>
 	<description>Inventory Management System</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 		 <maven.test.skip>true</maven.test.skip>
 	</properties>
 	
