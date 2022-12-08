@@ -29,8 +29,10 @@ public class InventoryServiceImpl implements InventoryService {
 		return repo.save(inventory);
 	}
 	@Override
-	public void deleteInventory(Inventory inventory) {
-		repo.delete(inventory);
+	public void  deleteInventory(int id) {
+		
+		repo.deleteById(id);
+		
 	}
 	
 

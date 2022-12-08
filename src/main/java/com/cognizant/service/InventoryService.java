@@ -10,7 +10,7 @@ public interface InventoryService {
 
 	Inventory updateInventory(Inventory inventory);
 	
-	void deleteInventory(Inventory inventory);
+	void deleteInventory(int id);
 
 	Inventory getInventoryById(int id);
 
