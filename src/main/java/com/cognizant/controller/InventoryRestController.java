@@ -35,24 +35,18 @@ public class InventoryRestController  {
 		public Inventory createInventory(@RequestBody Inventory inventory) {
 			return inventoryService.saveInventory(inventory);
 		}
-/*
-		@PutMapping("/add")
-		public Inventory updateLocation(@RequestBody Inventory inventory) {
-			return inventoryService.saveInventory(inventory);
 
-		}
-/*
 		@DeleteMapping("/{id}")
 		public void deleteLocation(@PathVariable("id") int id) {
-			inventoryService.deleteById(id);
+			inventoryService.deleteInventory(id);
 		}
 
 		@GetMapping("/{id}")
 		public Inventory getLocation(@PathVariable("id") int id) {
-			return inventoryService.findById(id).get();
+			return inventoryService.getInventoryById(id);
 
 		}
-		*/
+		
 
 	
 
